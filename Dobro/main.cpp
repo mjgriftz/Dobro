@@ -14,8 +14,11 @@
 
 
 int main(int argc, const char * argv[]) {
+    
     // insert code here...
+    
     // check filename
+    
     std::string target_file_name = argv[1];
     std::ifstream target(target_file_name, std::ifstream::ate | std::ifstream::binary );
     int target_size = (int)target.tellg();
@@ -23,8 +26,8 @@ int main(int argc, const char * argv[]) {
     
     // check sizes from root
     
-    
     // check data matches from size matches
+    
     // list true matches
     return 0;
 }
